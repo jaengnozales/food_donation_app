@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Food Donation App</string>
+    <string name="reg_donator">Register as restaurant</string>
+    <string name="reg_charity">Regiter as charity</string>
+    <string name="login_username">username</string>
+    <string name="login_password">password</string>
+    <string name="login_btn">Login</string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Find Charity</string>
+    <string name="tab_text_2">Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="form_donate_good_for_how_many">Good for how many people?</string>
+    <string name="donate_frag_how_many">Good for how many people?</string>
+    <string name="donate_frag_expiration">Expiration</string>
+    <string name="donate_frag_delivery_mode">Mode of Delivery</string>
+    <string name="donate_frag_find_btn">Find Charities</string>
+    <string name="title_activity_find_charity">Find Charities</string>
+</resources>
