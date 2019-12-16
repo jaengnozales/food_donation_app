@@ -2,23 +2,31 @@ package com.donation.app;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.CountDownTimer;
+import android.os.Handler;
+import android.os.SystemClock;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.view.View;
+import android.view.animation.BounceInterpolator;
+import android.view.animation.Interpolator;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class FindCharityActivity extends FragmentActivity implements OnMapReadyCallback {
+public class FindCharityActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleMap.OnInfoWindowClickListener {
 
     private GoogleMap mMap;
 
@@ -52,6 +60,56 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
 
         mMap.setInfoWindowAdapter(new CustomInfoWindowAdapter());
+
+        mMap.setOnMarkerClickListener(this);
+        mMap.setOnInfoWindowClickListener(this);
+    }
+
+    @Override
+    public boolean onMarkerClick(final Marker marker) {
+//        if (marker.equals(mPerth)) {
+//            // This causes the marker at Perth to bounce into position when it is clicked.
+//            final Handler handler = new Handler();
+//            final long start = SystemClock.uptimeMillis();
+//            final long duration = 1500;
+//
+//            final Interpolator interpolator = new BounceInterpolator();
+//
+//            handler.post(new Runnable() {
+//                @Override
+//                public void run() {
+//                    long elapsed = SystemClock.uptimeMillis() - start;
+//                    float t = Math.max(
+//                            1 - interpolator.getInterpolation((float) elapsed / duration), 0);
+//                    marker.setAnchor(0.5f, 1.0f + 2 * t);
+//
+//                    if (t > 0.0) {
+//                        // Post again 16ms later.
+//                        handler.postDelayed(this, 16);
+//                    }
+//                }
+//            });
+//        } else if (marker.equals(mAdelaide)) {
+//            // This causes the marker at Adelaide to change color and alpha.
+//            marker.setIcon(BitmapDescriptorFactory.defaultMarker(mRandom.nextFloat() * 360));
+//            marker.setAlpha(mRandom.nextFloat());
+//        }
+
+        // Markers have a z-index that is settable and gettable.
+        float zIndex = marker.getZIndex() + 1.0f;
+        marker.setZIndex(zIndex);
+        final Toast mToast = Toast.makeText(this, marker.getTitle() + " z-index set to " + zIndex,
+                Toast.LENGTH_LONG);
+//
+
+        mToast.show();
+        return false;
+    }
+
+    @Override
+    public void onInfoWindowClick(Marker marker) {
+        Intent intent = new Intent(FindCharityActivity.this, ReadMessageActivity.class);
+        startActivity(intent);
     }
 
     /** Demonstrates customizing the info window and/or its contents. */
@@ -126,4 +184,6 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
             }
         }
     }
+
+
 }
