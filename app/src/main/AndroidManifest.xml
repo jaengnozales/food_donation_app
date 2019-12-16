@@ -16,13 +16,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ShowCharityInfoActivity"
+            android:name=".ReadMessageActivity"
             android:label="@string/title_activity_read_message"
-            android:parentActivityName=".Home"
+            android:parentActivityName=".ShowCharityInfoActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.donation.app.Home" />
+                android:value="com.donation.app.ShowCharityInfoActivity" />
+        </activity>
+        <activity
+            android:name=".ShowCharityInfoActivity"
+            android:label="@string/title_activity_read_message"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.donation.app.HomeActivity" />
         </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -41,10 +50,10 @@
             android:label="@string/title_activity_find_charity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.donation.app.Home" />
+                android:value="com.donation.app.HomeActivity" />
         </activity>
         <activity
-            android:name=".Home"
+            android:name=".HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">

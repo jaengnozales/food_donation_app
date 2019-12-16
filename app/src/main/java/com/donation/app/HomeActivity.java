@@ -16,7 +16,7 @@ import android.view.View;
 
 import com.donation.app.ui.main.SectionsPagerAdapter;
 
-public class Home extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
