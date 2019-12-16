@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ReadMessageActivity"
+            android:name=".ShowCharityInfoActivity"
             android:label="@string/title_activity_read_message"
             android:parentActivityName=".Home"
             android:theme="@style/AppTheme.NoActionBar">
