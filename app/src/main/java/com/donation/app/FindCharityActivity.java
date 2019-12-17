@@ -24,6 +24,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class FindCharityActivity extends FragmentActivity implements OnMapReadyCallback, GoogleMap.OnMarkerClickListener, GoogleMap.OnInfoWindowClickListener {
 
     private GoogleMap mMap;
+    private Marker redCross;
+    private Marker riseAgainstHunger;
+    private Marker phFoodBankFoundation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,9 +80,13 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
                 .strokeWidth(1));
 
 //        mMap.addMarker(new MarkerOptions().position(restaurant).title("Restaurant"));
-        mMap.addMarker(new MarkerOptions().position(charity1).title("Charity 1"));
-        mMap.addMarker(new MarkerOptions().position(charity2).title("Charity 2"));
-        mMap.addMarker(new MarkerOptions().position(charity3).title("Charity 3"));
+        redCross = mMap.addMarker(new MarkerOptions().position(charity1)
+                .title("Red Cross Philippines"));
+        riseAgainstHunger = mMap.addMarker(new MarkerOptions().position(charity2)
+                .title("Rise Against Hunger Philippines"));
+        phFoodBankFoundation = mMap.addMarker(new MarkerOptions().position(charity3)
+                .title("Philippine FoodBank Foundation"));
+
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(restaurant, 14));
 
         mMap.setInfoWindowAdapter(new CustomInfoWindowAdapter());
@@ -121,7 +128,7 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
         // Markers have a z-index that is settable and gettable.
         float zIndex = marker.getZIndex() + 1.0f;
         marker.setZIndex(zIndex);
-        final Toast mToast = Toast.makeText(this, marker.getTitle() + " z-index set to " + zIndex,
+        final Toast mToast = Toast.makeText(this, marker.getTitle(),
                 Toast.LENGTH_LONG);
 //
 
@@ -132,6 +139,7 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
     @Override
     public void onInfoWindowClick(Marker marker) {
         Intent intent = new Intent(FindCharityActivity.this, ShowCharityInfoActivity.class);
+        intent.putExtra(Constants.SELECTED_CHARITY, marker.getTitle());
         startActivity(intent);
     }
 

@@ -14,6 +14,8 @@ import android.view.View;
 
 public class ReadMessageActivity extends AppCompatActivity {
 
+    private String selectedCharity = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,9 @@ public class ReadMessageActivity extends AppCompatActivity {
 //            }
 //        });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        this.selectedCharity = getIntent().getStringExtra(Constants.SELECTED_CHARITY);
+        setTitle(this.selectedCharity);
     }
 
     @Override

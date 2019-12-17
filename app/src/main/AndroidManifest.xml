@@ -20,7 +20,7 @@
         <activity
             android:name=".ReadMessageActivity"
             android:label="@string/title_activity_read_message"
-            android:parentActivityName=".ShowCharityInfoActivity"
+            android:parentActivityName=".HomeActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
