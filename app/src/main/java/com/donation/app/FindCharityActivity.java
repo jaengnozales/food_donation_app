@@ -52,7 +52,7 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
         // Add a marker in Sydney and move the camera
         LatLng restaurant = new LatLng(14.539068, 120.981429);
         LatLng charity1 = new LatLng(14.541267, 120.985460);
-        LatLng charity2 = new LatLng(14.539469, 120.984685);
+        LatLng charity2 = new LatLng(14.538110, 120.980311);
         LatLng charity3 = new LatLng(14.536717, 120.984964);
 
 //        LatLngBounds bounds = new LatLngBounds.Builder()
