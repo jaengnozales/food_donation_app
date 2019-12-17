@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:ems="10"
-                android:hint="@string/donate_frag_expiration"
+                android:hint="@string/form_donate_frag_expiration"
                 android:inputType="textPersonName" />
 
             <EditText
@@ -46,7 +46,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_weight="1"
                 android:ems="10"
-                android:hint="@string/donate_frag_delivery_mode"
+                android:hint="@string/form_donate_frag_delivery_mode"
                 android:inputType="textPersonName"
                 app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_marginLeft="16dp"
-                android:text="@string/donate_frag_find_btn" />
+                android:text="@string/btn_find_charities" />
 
         </LinearLayout>
 

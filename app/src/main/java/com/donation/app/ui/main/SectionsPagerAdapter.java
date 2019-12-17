@@ -20,8 +20,8 @@ import com.donation.app.SetCharityInfoFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] DONATOR_TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
-    private static final int[] CHARITY_TAB_TITLES = new int[]{R.string.tab_text_3, R.string.tab_text_2};
+    private static final int[] DONATOR_TAB_TITLES = new int[]{R.string.tab_find_charity, R.string.tab_activity};
+    private static final int[] CHARITY_TAB_TITLES = new int[]{R.string.title_set_charity_needs, R.string.tab_activity};
     private final Context mContext;
     private String user;
 

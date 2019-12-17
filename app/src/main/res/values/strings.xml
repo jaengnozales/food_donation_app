@@ -1,32 +1,43 @@
 <resources>
     <string name="app_name">Food Donation App</string>
+
     <string name="reg_donator">Register as restaurant</string>
-    <string name="reg_charity">Regiter as charity</string>
+    <string name="reg_charity">Register as charity</string>
+
     <string name="login_username">username</string>
     <string name="login_password">password</string>
-    <string name="login_btn">Login</string>
-    <string name="title_activity_home">Home</string>
-    <string name="tab_text_1">Find Charity</string>
-    <string name="tab_text_2">Activity</string>
+    <string name="btn_login">Login</string>
+
+    <string name="title_home">Home</string>
+    <string name="tab_find_charity">Find Charity</string>
+    <string name="tab_activity">Activity</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
     <string name="form_donate_good_for_how_many">Good for how many people?</string>
-    <string name="donate_frag_how_many">Good for how many people?</string>
-    <string name="donate_frag_expiration">Expiration</string>
-    <string name="donate_frag_delivery_mode">Mode of Delivery</string>
-    <string name="donate_frag_find_btn">Find Charities</string>
+    <string name="form_donate_frag_expiration">Expiration</string>
+    <string name="form_donate_frag_delivery_mode">Mode of Delivery</string>
+    <string name="btn_find_charities">Find Charities</string>
+
     <string name="title_activity_find_charity">Find Charities</string>
-    <string name="marker_donate">Donate</string>
+    <string name="title_donate">Donate</string>
     <string name="title_activity_read_message">ReadMessageActivity</string>
-    <string name="large_text">"info about charity, info about donation needed"</string>
-    <string name="action_settings">Settings</string>
-    <string name="btn_submit">Submit</string>
+    <string name="title_set_charity_needs">Set Charity Needs</string>
+
     <string name="btn_reset">Reset</string>
-    <string name="tab_text_3">Set Charity Needs</string>
+    <string name="btn_submit">Submit</string>
+    <string name="action_settings">Settings</string>
 
     <string name="info_set_charity_info">
         Are you ready to receive donations from our partner restaurants?
         Please provide the required information below so we can find the nearest partners to
         contact you immediately.
     </string>
+    <string name="info_charity_general">
+        We are CHARITY_NAME a non-profit organization from Brgy. Barangay, Quezon City.
+        Our mission is to provide a safe, inclusive and nurturing home for out-of-school youth
+        around our barangay. As of the last week of November 2019 we currently have a larger demand
+        of food for our children because of the holiday season.
+    </string>
+
 </resources>
