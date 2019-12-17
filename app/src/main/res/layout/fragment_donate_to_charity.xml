@@ -39,17 +39,6 @@
                 android:hint="@string/form_donate_frag_expiration"
                 android:inputType="textPersonName" />
 
-            <EditText
-                android:id="@+id/editText5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="@string/form_donate_frag_delivery_mode"
-                android:inputType="textPersonName"
-                app:layout_constraintTop_toBottomOf="@+id/editText4" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -66,17 +55,23 @@
                 android:id="@+id/btn_reset"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginRight="16dp"
-                android:text="@string/btn_reset" />
+                android:layout_weight="1"
+                android:background="@color/theme1Warning"
+                android:text="@string/btn_reset"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_submit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:layout_marginLeft="16dp"
-                android:text="@string/btn_find_charities" />
+                android:layout_weight="1"
+                android:background="@color/theme1Success"
+                android:text="@string/btn_find_charities"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#fff3af</color>
-    <color name="colorPrimaryDark">#ffd271</color>
-    <color name="colorAccent">#f65c78</color>
+    <color name="theme1Success">#A0E8AF</color>
+    <color name="theme1Info">#08B2E3</color>
+    <color name="theme1Warning">#F8A66C</color>
+
+    <color name="colorPrimary">#FFDF74</color>
+    <color name="colorPrimaryDark">#D5B942</color>
+    <color name="colorAccent">#EE4266</color>
 
     <color name="theme1Primary">#FFF7C3</color>
-    <color name="theme1PrimaryDark">#FFDF74</color>
+    <color name="theme1PrimaryDark">#D5B942</color>
     <color name="theme1AccentDark">#664E4C</color>
     <color name="theme1AccentLight">#C1D37F</color>
-    <color name="theme1Accent">#F9D4BB</color>
+    <color name="theme1Accent">#EDFBC1</color>
 </resources>

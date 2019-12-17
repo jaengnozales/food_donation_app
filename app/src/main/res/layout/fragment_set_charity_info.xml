@@ -10,49 +10,48 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="370dp"
-            android:layout_height="77dp"
-            android:layout_margin="16dp"
-            android:layout_marginStart="25dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginEnd="42dp"
-            android:layout_marginRight="42dp"
-            android:ems="10"
-            android:text="@string/info_set_charity_info"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.29"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/editText7"
-            android:layout_width="370dp"
-            android:layout_height="50dp"
-            android:layout_margin="16dp"
-            android:layout_marginStart="26dp"
-            android:layout_marginLeft="26dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginRight="20dp"
-            android:ems="10"
-            android:hint="@string/form_donate_good_for_how_many"
-            android:inputType="number"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="369dp"
+                android:layout_height="122dp"
+                android:layout_margin="16dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginEnd="42dp"
+                android:layout_marginRight="42dp"
+                android:ems="10"
+                android:text="@string/info_set_charity_info"
+                android:textSize="18sp" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="370dp"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="@string/btn_submit"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText7" />
+            <EditText
+                android:id="@+id/editText7"
+                android:layout_width="370dp"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="@string/form_donate_good_for_how_many"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:background="@color/theme1Success"
+                android:text="@string/btn_submit"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
