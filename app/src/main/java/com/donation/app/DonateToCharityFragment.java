@@ -42,7 +42,7 @@ public class DonateToCharityFragment extends Fragment {
             Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_donate_to_charity, container, false);
 
-        Button b = (Button) root.findViewById(R.id.button5);
+        Button b = (Button) root.findViewById(R.id.btn_submit);
         b.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 findCharities(v);
