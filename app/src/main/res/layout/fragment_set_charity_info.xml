@@ -15,11 +15,12 @@
             android:layout_width="359dp"
             android:layout_height="47dp"
             android:layout_margin="16dp"
+            android:layout_marginTop="16dp"
             android:ems="10"
-            android:inputType="number"
             android:hint="@string/form_donate_good_for_how_many"
-            tools:layout_editor_absoluteX="26dp"
-            tools:layout_editor_absoluteY="26dp" />
+            android:inputType="number"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="26dp" />
 
         <Button
             android:id="@+id/button5"

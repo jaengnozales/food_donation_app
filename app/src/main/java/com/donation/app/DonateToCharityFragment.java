@@ -35,29 +35,12 @@ public class DonateToCharityFragment extends Fragment {
         return fragment;
     }
 
-//    @Override
-//    public void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        pageViewModel = ViewModelProviders.of(this).get(PageViewModel.class);
-//        int index = 1;
-//        if (getArguments() != null) {
-//            index = getArguments().getInt(ARG_SECTION_NUMBER);
-//        }
-//        pageViewModel.setIndex(index);
-//    }
 
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_donate_to_charity, container, false);
-//        final TextView textView = root.findViewById(R.id.section_label);
-//        pageViewModel.getText().observe(this, new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
 
         Button b = (Button) root.findViewById(R.id.button5);
         b.setOnClickListener(new View.OnClickListener() {
