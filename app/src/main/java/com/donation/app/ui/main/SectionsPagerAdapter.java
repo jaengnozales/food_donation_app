@@ -41,8 +41,13 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
             }
         }
         // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        // Return a RestaurantActivityFragment (defined as a static inner class below).
+        if(isCharity()) {
+            return CharityActivityFragment.newInstance(position + 1);
+        } else {
+            return RestaurantActivityFragment.newInstance(position + 1);
+        }
+
     }
 
     @Nullable
