@@ -28,10 +28,15 @@
     <string name="btn_submit">Submit</string>
     <string name="action_settings">Settings</string>
 
-    <string name="info_set_charity_info">
+    <string name="info_set_donor_pitch">
+        Thank you for your interest in donating to our partner charities.
+        Please provide the required information below so we can match the nearest partners
+        that you can contact to donate.
+    </string>
+    <string name="info_set_charity_pitch">
         Are you ready to receive donations from our partner restaurants?
         Please provide the required information below so we can find the nearest partners to
-        contact you immediately.
+        donate to your organization immediately.
     </string>
     <string name="info_charity_general">
         We are CHARITY_NAME a non-profit organization from Brgy. Barangay, Quezon City.

@@ -25,7 +25,7 @@
                 android:layout_marginEnd="42dp"
                 android:layout_marginRight="42dp"
                 android:ems="10"
-                android:text="@string/info_set_charity_info"
+                android:text="@string/info_set_charity_pitch"
                 android:textSize="18sp" />
 
             <EditText
