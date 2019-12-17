@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="end|bottom"
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textOne"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="1"-->
+<!--        android:textColor="#FFF"-->
+<!--        android:textSize="10sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:background="@drawable/rounded_textview"-->
+<!--        android:elevation="7dp"-->
+<!--        android:layout_gravity="right|bottom"-->
+<!--        android:layout_alignBottom="@+id/frameLayout"-->
+<!--        android:layout_toLeftOf="@+id/frameLayout"-->
+<!--        android:layout_toStartOf="@+id/frameLayout" />-->
+
+</FrameLayout>

@@ -24,11 +24,11 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
                 android:layout_weight="1"
-                android:text="TextView"
-                android:textSize="18sp"
-                tools:text="@string/info_set_donor_pitch" />
+                android:text="@string/info_set_donor_pitch"
+                android:textSize="18sp" />
 
             <EditText
                 android:id="@+id/editText3"
