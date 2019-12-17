@@ -39,11 +39,13 @@
         donate to your organization immediately.
     </string>
     <string name="info_charity_general">
-        We are CHARITY_NAME a non-profit organization from Brgy. Barangay, Quezon City.
-        Our mission is to provide a safe, inclusive and nurturing home for out-of-school youth
-        around our barangay. As of the last week of November 2019 we currently have a larger demand
-        of food for our children because of the holiday season.
+        Philippine Red Cross is a premier humanitarian organization in the country that is committed on various social welfare services and promoting volunteerism.
+        \n\n
+        Joining the Philippine Red Cross (PRC) Membership Program gives an individual self-worth as you are extending help to the most vulnerable Filipinos.
+        \n\n
+        Philippine Red Cross Membership is a form of donation that has an accident insurance policy intended for anyone between 5 to 85 years old.  As a member, an individual is entitled to accidental death, disablement and dismemberment, hospitalization and burial reimbursements.
     </string>
     <string name="action_call">Call</string>
+    <string name="text_alert_in_need">We are currently in need of food donations for 100pax.</string>
 
 </resources>
