@@ -16,6 +16,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -48,9 +49,23 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(14, 120);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Manila"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng restaurant = new LatLng(14.539068, 120.981429);
+        LatLng charity1 = new LatLng(14.541267, 120.985460);
+        LatLng charity2 = new LatLng(14.539469, 120.984685);
+        LatLng charity3 = new LatLng(14.536717, 120.984964);
+
+        LatLngBounds bounds = new LatLngBounds.Builder()
+                .include(restaurant)
+                .include(charity1)
+                .include(charity2)
+                .include(charity3)
+                .build();
+
+        mMap.addMarker(new MarkerOptions().position(restaurant).title("Restaurant"));
+        mMap.addMarker(new MarkerOptions().position(charity1).title("Charity 1"));
+        mMap.addMarker(new MarkerOptions().position(charity2).title("Charity 2"));
+        mMap.addMarker(new MarkerOptions().position(charity3).title("Charity 3"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds, 50));
 
         mMap.setInfoWindowAdapter(new CustomInfoWindowAdapter());
 
