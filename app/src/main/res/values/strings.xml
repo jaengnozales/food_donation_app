@@ -56,5 +56,9 @@
     <string name="message_sender1">RESTAURANT ABC</string>
     <string name="message_sender2">RESTAURANT 123</string>
     <string name="message_sender3">RESTAURANT XYZ</string>
+
+    <string name="message_sender1_charity">CHARITY ABC</string>
+    <string name="message_sender2_charity">CHARITY 123</string>
+    <string name="message_sender3_charity">CHARITY XYZ</string>
     <string name="message_sender_content">This is to inform you that...</string>
 </resources>

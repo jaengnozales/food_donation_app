@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ShowMessagesActivity">
+    tools:context=".ShowMessagesFromRestaurantActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -43,7 +43,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/message_sender1_charity"
+                        android:text="@string/message_sender1"
                         android:textColor="@color/theme1PrimaryText"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -94,7 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/message_sender3_charity"
+                        android:text="@string/message_sender3"
                         android:textColor="@color/theme1PrimaryText"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -146,7 +146,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/message_sender2_charity"
+                        android:text="@string/message_sender2"
                         android:textColor="@color/theme1PrimaryText"
                         android:textSize="18sp"
                         android:textStyle="bold" />

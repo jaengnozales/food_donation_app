@@ -36,8 +36,14 @@ public class HomeActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(HomeActivity.this, ShowMessagesActivity.class);
-                startActivity(intent);
+                if(UserSingleton.getInstance().getUser().equalsIgnoreCase("charity")) {
+                    Intent intent = new Intent(HomeActivity.this, ShowMessagesFromRestaurantActivity.class);
+                    startActivity(intent);
+                } else {
+                    Intent intent = new Intent(HomeActivity.this, ShowMessagesActivity.class);
+                    startActivity(intent);
+                }
+
             }
         });
     }
