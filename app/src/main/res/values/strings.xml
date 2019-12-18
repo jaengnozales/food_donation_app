@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Food Donation App</string>
+    <string name="app_name">HAPAG PH</string>
 
     <string name="reg_donator">Register as restaurant</string>
     <string name="reg_charity">Register as\ncharity</string>
@@ -29,8 +29,8 @@
     <string name="action_settings">Settings</string>
 
     <string name="info_set_donor_pitch">
-        Thank you for your interest in donating to our partner charities.
-        Click the button below so we can match the nearest partners
+        Thank you for your interest in donating to our partner charities.\n\nPlease
+        click the button below so we can match the nearest partners
         that you can contact to donate.
     </string>
     <string name="info_set_charity_pitch">
@@ -39,11 +39,14 @@
         donate to your organization immediately.
     </string>
     <string name="info_charity_general">
-        Philippine Red Cross is a premier humanitarian organization in the country that is committed on various social welfare services and promoting volunteerism.
-        \n\n
-        Joining the Philippine Red Cross (PRC) Membership Program gives an individual self-worth as you are extending help to the most vulnerable Filipinos.
-        \n\n
-        Philippine Red Cross Membership is a form of donation that has an accident insurance policy intended for anyone between 5 to 85 years old.  As a member, an individual is entitled to accidental death, disablement and dismemberment, hospitalization and burial reimbursements.
+        Philippine Red Cross is a premier humanitarian organization in the country that is
+        committed on various social welfare services and promoting volunteerism.
+        \n\nJoining the Philippine Red Cross (PRC) Membership Program gives an individual
+        self-worth as you are extending help to the most vulnerable Filipinos.
+        \n\nPhilippine Red Cross Membership is a form of donation that has an accident insurance
+        policy intended for anyone between 5 to 85 years old.  As a member, an individual is
+        entitled to accidental death, disablement and dismemberment, hospitalization and
+        burial reimbursements.
     </string>
     <string name="action_call">Call</string>
     <string name="text_alert_in_need">
