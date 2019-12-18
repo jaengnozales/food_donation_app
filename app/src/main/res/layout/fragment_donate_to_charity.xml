@@ -31,24 +31,6 @@
                 android:textColor="@color/theme1PrimaryText"
                 android:textSize="18sp" />
 
-            <EditText
-                android:id="@+id/editText3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:ems="10"
-                android:hint="@string/form_donate_good_for_how_many"
-                android:inputType="textPersonName" />
-
-            <EditText
-                android:id="@+id/editText4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:ems="10"
-                android:hint="@string/form_donate_frag_expiration"
-                android:inputType="textPersonName" />
-
         </LinearLayout>
 
         <LinearLayout
@@ -61,17 +43,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/linear_layout_1">
 
-            <Button
-                android:id="@+id/btn_reset"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="16dp"
-                android:layout_weight="1"
-                android:background="@color/theme1Warning"
-                android:text="@string/btn_reset"
-                android:textColor="@color/theme1TextLight"
-                android:textSize="18sp"
-                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/btn_submit"
