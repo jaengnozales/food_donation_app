@@ -50,4 +50,8 @@
         We are currently in need of food donations for 100 pax.
     </string>
 
+    <string name="message_sender1">RESTAURANT ABC</string>
+    <string name="message_sender2">RESTAURANT 123</string>
+    <string name="message_sender3">RESTAURANT XYZ</string>
+    <string name="message_sender_content">This is to inform you that...</string>
 </resources>
