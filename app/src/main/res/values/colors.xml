@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="theme1Success">#7CB518</color>
+    <color name="theme1Success">#873DB518</color>
     <color name="theme1Info">#08B2E3</color>
     <color name="theme1Warning">#FF5722</color>
 
@@ -11,7 +11,7 @@
     <color name="theme1Primary">#FFC107</color>
     <color name="theme1PrimaryDark">#FFA000</color>
     <color name="theme1PrimaryLight">#FFECB3</color>
-    <color name="theme1Accent">#FF5722</color>
+    <color name="theme1Accent">#A6FF5722</color>
     <color name="theme1PrimaryText">#212121</color>
     <color name="theme1SecondaryText">#757575</color>
     <color name="theme1TextLight">#FFFFFF</color>

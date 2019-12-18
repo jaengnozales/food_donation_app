@@ -12,6 +12,7 @@ import com.donation.app.Constants;
 import com.donation.app.DonateToCharityFragment;
 import com.donation.app.R;
 import com.donation.app.SetCharityInfoFragment;
+import com.donation.app.UserSingleton;
 
 /**
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
@@ -60,7 +61,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     }
 
     private boolean isCharity() {
-        return user != null && user.equalsIgnoreCase(Constants.USER_CHARITY);
+        return UserSingleton.getInstance().getUser().equalsIgnoreCase("charity");
     }
 
     @Override

@@ -6,6 +6,7 @@ public class UserSingleton {
 
     // variable of type String
     private String user;
+    private String charityNeeds = "";
 
     // private constructor restricted to this class itself
     private UserSingleton()
@@ -29,4 +30,12 @@ public class UserSingleton {
         return this.user;
     }
 
+
+    public String getCharityNeeds() {
+        return charityNeeds;
+    }
+
+    public void setCharityNeeds(String charityNeeds) {
+        this.charityNeeds = charityNeeds;
+    }
 }
