@@ -81,11 +81,14 @@ public class FindCharityActivity extends FragmentActivity implements OnMapReadyC
 
 //        mMap.addMarker(new MarkerOptions().position(restaurant).title("Restaurant"));
         redCross = mMap.addMarker(new MarkerOptions().position(charity1)
-                .title("Red Cross Philippines"));
+                .title("Red Cross Philippines")
+                .snippet("Click here to donate."));
         riseAgainstHunger = mMap.addMarker(new MarkerOptions().position(charity2)
-                .title("Rise Against Hunger Philippines"));
+                .title("Rise Against Hunger Philippines")
+                .snippet("Click here to donate."));
         phFoodBankFoundation = mMap.addMarker(new MarkerOptions().position(charity3)
-                .title("Philippine FoodBank Foundation"));
+                .title("Philippine FoodBank Foundation")
+                .snippet("Click here to donate."));
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(restaurant, 14));
 

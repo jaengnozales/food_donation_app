@@ -15,7 +15,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ItemMessageReceived"></activity>
+        <activity android:name=".ShowMessagesActivity"></activity>
+        <activity android:name=".ItemMessageReceived" />
         <activity android:name=".SetCharityInfoActivity" />
         <activity
             android:name=".ReadMessageActivity"
