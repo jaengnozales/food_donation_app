@@ -2,10 +2,10 @@
     <string name="app_name">Food Donation App</string>
 
     <string name="reg_donator">Register as restaurant</string>
-    <string name="reg_charity">Register as charity</string>
+    <string name="reg_charity">Register as\ncharity</string>
 
-    <string name="login_username">username</string>
-    <string name="login_password">password</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
     <string name="btn_login">Login</string>
 
     <string name="title_home">Home</string>
@@ -46,6 +46,8 @@
         Philippine Red Cross Membership is a form of donation that has an accident insurance policy intended for anyone between 5 to 85 years old.  As a member, an individual is entitled to accidental death, disablement and dismemberment, hospitalization and burial reimbursements.
     </string>
     <string name="action_call">Call</string>
-    <string name="text_alert_in_need">We are currently in need of food donations for 100pax.</string>
+    <string name="text_alert_in_need">
+        We are currently in need of food donations for 100 pax.
+    </string>
 
 </resources>

@@ -25,9 +25,10 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_marginBottom="50dp"
                 android:layout_weight="1"
                 android:text="@string/info_set_donor_pitch"
+                android:textColor="@color/theme1PrimaryText"
                 android:textSize="18sp" />
 
             <EditText
@@ -68,6 +69,7 @@
                 android:layout_weight="1"
                 android:background="@color/theme1Warning"
                 android:text="@string/btn_reset"
+                android:textColor="@color/theme1TextLight"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -79,6 +81,7 @@
                 android:layout_weight="1"
                 android:background="@color/theme1Success"
                 android:text="@string/btn_find_charities"
+                android:textColor="@color/theme1TextLight"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

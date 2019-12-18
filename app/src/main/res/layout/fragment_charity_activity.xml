@@ -30,7 +30,7 @@
                 android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView1_2"
                 app:layout_constraintTop_toTopOf="@+id/textView1_2">
@@ -99,7 +99,7 @@
                 android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView3_2"
                 app:layout_constraintTop_toTopOf="@+id/textView3_2">
@@ -168,7 +168,7 @@
                 android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView5_2"
                 app:layout_constraintTop_toTopOf="@+id/textView5_2">
@@ -237,7 +237,7 @@
                 android:id="@+id/linearLayout7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView7_2"
                 app:layout_constraintTop_toTopOf="@+id/textView7_2">
@@ -306,7 +306,7 @@
                 android:id="@+id/linearLayout9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView9_2"
                 app:layout_constraintTop_toTopOf="@+id/textView9_2">
@@ -375,7 +375,7 @@
                 android:id="@+id/linearLayout11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView11_2"
                 app:layout_constraintTop_toTopOf="@+id/textView11_2">
@@ -444,7 +444,7 @@
                 android:id="@+id/linearLayout13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView13_2"
                 app:layout_constraintTop_toTopOf="@+id/textView13_2">
@@ -513,7 +513,7 @@
                 android:id="@+id/linearLayout15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/theme1Primary"
+                android:background="@color/theme1PrimaryLight"
                 android:padding="16dp"
                 app:layout_constraintBottom_toTopOf="@+id/textView15_2"
                 app:layout_constraintTop_toTopOf="@+id/textView15_2">

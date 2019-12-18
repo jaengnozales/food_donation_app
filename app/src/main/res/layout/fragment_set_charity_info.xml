@@ -26,6 +26,7 @@
                 android:layout_marginRight="42dp"
                 android:ems="10"
                 android:text="@string/info_set_charity_pitch"
+                android:textColor="@color/theme1PrimaryText"
                 android:textSize="18sp" />
 
             <EditText
@@ -49,6 +50,7 @@
                 android:layout_margin="16dp"
                 android:background="@color/theme1Success"
                 android:text="@string/btn_submit"
+                android:textColor="@color/theme1TextLight"
                 android:textSize="18sp"
                 android:textStyle="bold" />
         </LinearLayout>
