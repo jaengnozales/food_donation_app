@@ -28,6 +28,15 @@
                 android:value="com.donation.app.ShowCharityInfoActivity" />
         </activity>
         <activity
+            android:name=".ReadMessageFromRestaurantActivity"
+            android:label="Restaurant"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.donation.app.ShowMessagesActivity" />
+        </activity>
+        <activity
             android:name=".ShowCharityInfoActivity"
             android:label="@string/title_activity_read_message"
             android:parentActivityName=".HomeActivity"

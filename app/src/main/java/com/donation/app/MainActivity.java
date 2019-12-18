@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(mEdit.getText().toString());
         if(mEdit != null && mEdit.getText() != null)
             intent.putExtra(Constants.USER, mEdit.getText().toString());
+        UserSingleton.getInstance().setUser(mEdit.getText().toString());
         startActivity(intent);
     }
 }

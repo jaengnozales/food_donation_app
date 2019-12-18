@@ -9,6 +9,6 @@ public class ItemMessageReceived extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_item_message_received);
+        setContentView(R.layout.activity_item_message_sent);
     }
 }
