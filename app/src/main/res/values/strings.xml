@@ -20,7 +20,7 @@
     <string name="btn_find_charities">Find Charities</string>
 
     <string name="title_activity_find_charity">Find Charities</string>
-    <string name="title_donate">Donate</string>
+    <string name="title_donate">Donate Now</string>
     <string name="title_activity_read_message">ReadMessageActivity</string>
     <string name="title_set_charity_needs">Set Charity Needs</string>
 
